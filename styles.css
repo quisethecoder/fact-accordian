@@ -1,9 +1,13 @@
 body{
     margin: 0;
-    background-color: pink;
-    background-image: -webkit-linear-gradient(50%, rgb(102, 3, 102), 50%, rgb(255, 189, 200));
+    background: -webkit-linear-gradient(90deg, rgb(152, 91, 135) 41%, rgb(46, 33, 163) 51%); 
+     
 }
 
 h1, h2, p{
     font-family: 'montserrat';
+}
+
+.wrapper{
+    margin: 50px 40px 50px 40px;
 }
