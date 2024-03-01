@@ -4,3 +4,6 @@ body{
     background-image: -webkit-linear-gradient(50%, rgb(102, 3, 102), 50%, rgb(255, 189, 200));
 }
 
+h1, h2, p{
+    font-family: 'montserrat';
+}
