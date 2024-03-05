@@ -1,9 +1,20 @@
-function hide(){
-    var minuss = document.getElementById("minus");
-    minuss.style.display = "none";
+var minuss = document.getElementById("minus");
+
+
+
+
+function hide(){  
+   var getMe = minuss.style.display = "none";
+
+   if (getMe){
+    document.getElementById("hideMe").style.display = "none";
+   }else{
+    document.getElementById("showMe").style.display = "block";
+   }
 }
 
 function show(){
-    var minuss = document.getElementById("minus");
-    minuss.style.display = "block";
+    var showSum = minuss.style.display = "block";
 }
+
+
