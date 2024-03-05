@@ -41,3 +41,17 @@ h1{
     font-size: 55px;
     margin-right: 2rem;
 }
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-circle-plus, .fa-circle-minus{
+    font-size: 30px;
+    color:rgb(152, 91, 135)
+}
+
+
+
