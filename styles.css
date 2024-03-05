@@ -54,4 +54,6 @@ h1{
     margin-left: 0.5rem;
 }
 
-
+p{
+    display: block;
+}
