@@ -50,7 +50,8 @@ h1{
 
 .fa-circle-plus, .fa-circle-minus{
     font-size: 30px;
-    color:rgb(152, 91, 135)
+    color:rgb(152, 91, 135);
+    margin-left: 0.5rem;
 }
 
 
