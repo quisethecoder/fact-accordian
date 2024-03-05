@@ -15,6 +15,8 @@ function hide(){
 
 function show(){
     var showSum = minuss.style.display = "block";
+
+    document.getElementById("hideMe").style.display = "block";
 }
 
 

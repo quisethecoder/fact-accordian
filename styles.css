@@ -54,6 +54,10 @@ h1{
     margin-left: 0.5rem;
 }
 
+.fa-circle-minus{
+    display: none;
+}
+
 p{
-    display: block;
+    display: none;
 }
