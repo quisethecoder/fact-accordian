@@ -1,5 +1,7 @@
 const paragraphOne = document.getElementById("answer-one");
 const paragraphTwo = document.getElementById("answer-two");
+const paragraphThree = document.getElementById("answer-three");
+const paragraphFour = document.getElementById("answer-four");
 
 
 
@@ -32,7 +34,7 @@ function hideTwo(){
  
     document.getElementById("hideMeTwo").style.display = "none";
  
- }
+ };
 
  function showTwo(){
     var showSum = paragraphTwo.style.display = "block";
@@ -40,4 +42,24 @@ function hideTwo(){
     document.getElementById("hideMeTwo").style.display = "block";
 
     document.getElementById("showMeTwo").style.display = "none";
-}
+};
+
+// Third Question & Answer accordian
+
+function hideThree(){
+    var getMe = paragraphThree.style.display = "none";
+
+    document.getElementById("showMeThree").style.display = "block";
+
+    document.getElementById("hideMeThree").style.display = "none";
+};
+
+
+
+function showThree(){
+    var showSum = paragraphThree.style.display = "block";
+
+    document.getElementById("hideMeThree").style.display = "block";
+
+    document.getElementById("showMeThree").style.display = "none";
+};
