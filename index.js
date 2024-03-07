@@ -1,7 +1,9 @@
-var paragraphOne = document.getElementById("answer-one");
+const paragraphOne = document.getElementById("answer-one");
+const paragraphTwo = document.getElementById("answer-two");
 
 
 
+// First Question & Answer accordian
 
 function hide(){  
    var getMe = paragraphOne.style.display = "none";
@@ -21,3 +23,21 @@ function show(){
 }
 
 
+// Second Question & Answer accordian
+
+function hideTwo(){  
+    var getMe = paragraphTwo.style.display = "none";
+ 
+    document.getElementById("showMeTwo").style.display = "block";
+ 
+    document.getElementById("hideMeTwo").style.display = "none";
+ 
+ }
+
+ function showTwo(){
+    var showSum = paragraphTwo.style.display = "block";
+
+    document.getElementById("hideMeTwo").style.display = "block";
+
+    document.getElementById("showMeTwo").style.display = "none";
+}
