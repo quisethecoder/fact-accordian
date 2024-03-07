@@ -63,3 +63,23 @@ function showThree(){
 
     document.getElementById("showMeThree").style.display = "none";
 };
+
+// fourth Question & Answer accordian
+
+function hideFour(){
+    var getMe = paragraphFour.style.display = "none";
+
+    document.getElementById("showMeFour").style.display = "block";
+
+    document.getElementById("hideMeFour").style.display = "none";
+
+};
+
+function showFour(){
+    var showSum = paragraphFour.style.display = "block";
+
+    document.getElementById("hideMeFour").style.display = "block";
+
+    document.getElementById("showMeFour").style.display = "none";
+
+};
