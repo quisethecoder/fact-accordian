@@ -3,6 +3,14 @@ const paragraphTwo = document.getElementById("answer-two");
 const paragraphThree = document.getElementById("answer-three");
 const paragraphFour = document.getElementById("answer-four");
 
+gsap.to(".h", { y: 50, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".q", { y: 40, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".w", { y: 30, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".e", { y: 20, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".r", { y: 10, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".y", { y: -10, duration: 1, yoyo: true, repeat: -1 });
+
+
 
 
 // First Question & Answer accordian
