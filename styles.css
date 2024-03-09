@@ -38,7 +38,7 @@ h1, h2, ul{
     width: 35rem;
     border-radius: 13px;
     margin-top: 1rem;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 5rem;
@@ -83,4 +83,26 @@ h1{
 
 p{
     display: none;
+}
+
+.keep-scrolling{
+    font-size: 50px;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.arrow{
+    font-size: 100px;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 18rem;
+    margin-bottom: 10rem;
+}
+
+.fa-arrow-down{
+    margin-left: 20rem;
 }

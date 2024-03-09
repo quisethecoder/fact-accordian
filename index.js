@@ -16,6 +16,8 @@ gsap.to(".welcome-eleven", { y: 20, duration: 1, yoyo: true, repeat: -1 });
 gsap.to(".welcome-twelve", { y: -20, duration: 1, yoyo: true, repeat: -1 });
 gsap.to(".welcome-thirteen", { y: -30, duration: 1, yoyo: true, repeat: -1 });
 
+gsap.to(".arrow", { y: 50, duration: 2, ease: 10, repeat: -1 });
+
 
 
 
