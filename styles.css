@@ -81,7 +81,7 @@ h1{
     display: none;
 }
 
-p{
+#answer-one, #answer-two, #answer-three, #answer-four{
     display: none;
 }
 
@@ -109,19 +109,25 @@ p{
 
 .container-one{
     background: rgb(152, 91, 135);
-    padding-top: 20rem;
-    padding-bottom: 30em;
 }
 
 .container-two{
     background: rgb(46, 33, 163);
-    padding-top: 20rem;
-    padding-bottom: 30em;
 }
 
 .container-three{
-    background: rgb(9, 3, 66);
+    background: rgb(9, 3, 66); 
+}
+
+.container-one, .container-two, .container-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 20rem;
     padding-bottom: 30em;
 }
 
+
+.wrap, .quest{
+    color: wheat;
+}
