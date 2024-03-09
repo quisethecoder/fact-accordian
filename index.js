@@ -3,12 +3,18 @@ const paragraphTwo = document.getElementById("answer-two");
 const paragraphThree = document.getElementById("answer-three");
 const paragraphFour = document.getElementById("answer-four");
 
-gsap.to(".h", { y: 50, duration: 1, yoyo: true, repeat: -1 });
-gsap.to(".q", { y: 40, duration: 1, yoyo: true, repeat: -1 });
-gsap.to(".w", { y: 30, duration: 1, yoyo: true, repeat: -1 });
-gsap.to(".e", { y: 20, duration: 1, yoyo: true, repeat: -1 });
-gsap.to(".r", { y: 10, duration: 1, yoyo: true, repeat: -1 });
-gsap.to(".y", { y: -10, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-one", { y: -50, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-two", { y: -10, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-three", { y: 30, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-four", { y: 20, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-five", { y: -20, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-seven", { y: -10, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-eight", { y: -50, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-nine", { y: -30, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-ten", { y: 30, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-eleven", { y: 20, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-twelve", { y: -20, duration: 1, yoyo: true, repeat: -1 });
+gsap.to(".welcome-thirteen", { y: -30, duration: 1, yoyo: true, repeat: -1 });
 
 
 
