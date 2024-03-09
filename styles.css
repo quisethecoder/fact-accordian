@@ -106,3 +106,22 @@ p{
 .fa-arrow-down{
     margin-left: 20rem;
 }
+
+.container-one{
+    background: rgb(152, 91, 135);
+    padding-top: 20rem;
+    padding-bottom: 30em;
+}
+
+.container-two{
+    background: rgb(46, 33, 163);
+    padding-top: 20rem;
+    padding-bottom: 30em;
+}
+
+.container-three{
+    background: rgb(9, 3, 66);
+    padding-top: 20rem;
+    padding-bottom: 30em;
+}
+
