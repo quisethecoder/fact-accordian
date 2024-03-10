@@ -21,19 +21,19 @@ gsap.to(".arrow", { y: 50, duration: 2, ease: 10, repeat: -1 });
 
 
 
-const tl = gsap.timeline();
+// const tl = gsap.timeline();
 
- tl.from(".container-one", {xPercent: -100})
-    .from(".container-two", {xPercent: 100})
-    .from(".container-three", {xPercent: -100});
+//  tl.from(".container-one", {xPercent: -100})
+//     .from(".container-two", {xPercent: 100})
+//     .from(".container-three", {xPercent: -100});
 
-ScrollTrigger.create({
-    animation: tl,
-    start: "top top",
-    scrub: true,
-    pin: true,
-    anticipation: 1
-});
+// ScrollTrigger.create({
+//     animation: tl,
+//     start: "top top",
+//     scrub: true,
+//     pin: true,
+//     anticipation: 1
+// });
 
 
 gsap.to(".quest", {
