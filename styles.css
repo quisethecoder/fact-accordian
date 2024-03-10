@@ -1,7 +1,6 @@
 body{
     margin: 0;
     background: -webkit-linear-gradient(90deg, rgb(152, 91, 135) 41%, rgb(46, 33, 163) 90%); 
-    min-height: 100vh;
 }
 
 ul{
@@ -123,8 +122,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20rem;
-    padding-bottom: 30em;
+    padding-top: 15rem;
+    padding-bottom: 20em;
     padding-left: 25rem;
     padding-right: 25rem;
 }
@@ -133,4 +132,12 @@ h1{
 .wrap, .quest{
     color: wheat;
 
+}
+
+.quest{
+    margin-bottom: 5rem;
+}
+
+.answ{
+    margin-right: 3rem;
 }

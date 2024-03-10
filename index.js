@@ -19,6 +19,8 @@ gsap.to(".welcome-thirteen", { y: -30, duration: 1, yoyo: true, repeat: -1 });
 
 gsap.to(".arrow", { y: 50, duration: 2, ease: 10, repeat: -1 });
 
+
+
 const tl = gsap.timeline();
 
  tl.from(".container-one", {xPercent: -100})
@@ -31,6 +33,27 @@ ScrollTrigger.create({
     scrub: true,
     pin: true,
     anticipation: 1
+});
+
+
+gsap.to(".quest", {
+    srollTrigger: {
+        trigger: ".quest",
+        toggleActions: "restart none none reset"
+    }, 
+    y: 50, 
+    duration: 2, 
+    
+});
+
+gsap.from(".answ", {
+    scrollTrigger: {
+        trigger: ".answ",
+        toggleActions: "restart none none reset"
+    }, 
+    x: 50, 
+    duration: 5, 
+    opacity: 0 
 });
 
 
