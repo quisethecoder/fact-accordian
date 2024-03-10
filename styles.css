@@ -125,9 +125,12 @@ h1{
     align-items: center;
     padding-top: 20rem;
     padding-bottom: 30em;
+    padding-left: 25rem;
+    padding-right: 25rem;
 }
 
 
 .wrap, .quest{
     color: wheat;
+
 }
