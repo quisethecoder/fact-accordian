@@ -142,7 +142,7 @@ h1{
     margin-right: 3rem;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1080px){
     ul{
         list-style-type: none;
         justify-content: center;
