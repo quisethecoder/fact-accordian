@@ -1,3 +1,4 @@
+gsap.registerPlugin(ScrollTrigger);
 const paragraphOne = document.getElementById("answer-one");
 const paragraphTwo = document.getElementById("answer-two");
 const paragraphThree = document.getElementById("answer-three");
@@ -18,7 +19,19 @@ gsap.to(".welcome-thirteen", { y: -30, duration: 1, yoyo: true, repeat: -1 });
 
 gsap.to(".arrow", { y: 50, duration: 2, ease: 10, repeat: -1 });
 
+const tl = gsap.timeline();
 
+ tl.from(".container-one", {xPercent: -100})
+    .from(".container-two", {xPercent: 100})
+    .from(".container-three", {xPercent: -100});
+
+ScrollTrigger.create({
+    animation: tl,
+    start: "top top",
+    scrub: true,
+    pin: true,
+    anticipation: 1
+});
 
 
 // First Question & Answer accordian
