@@ -160,12 +160,13 @@ h1{
 
     .wrapper{
         background: rgb(251, 255, 240);
-        width: 25rem;
+        width: 20rem;
         border-radius: 13px;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        margin-right: 1rem;
         padding-left: 2rem;
-        padding-right: 2rem;
+        padding-right: 1rem;
         padding-bottom: 5rem;
     }
 
