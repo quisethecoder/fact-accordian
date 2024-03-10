@@ -141,3 +141,68 @@ h1{
 .answ{
     margin-right: 3rem;
 }
+
+@media screen and (max-width: 462px){
+    ul{
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 7rem;
+        margin-right: 1rem;
+    }
+    
+    li{
+        margin-left: 0rem;
+    }
+
+    .wrapper{
+        background: rgb(251, 255, 240);
+        width: 25rem;
+        border-radius: 13px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    h1{
+        font-size: 45px;
+        margin-right: 0rem;
+    }
+
+    .keep-scrolling{
+        font-size: 20px;
+        color: brown;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .arrow{
+        font-size: 50px;
+        color: brown;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 5rem;
+        margin-bottom: 10rem;
+    }
+
+    .fa-arrow-down{
+        margin-left: 5rem;
+    }
+
+    .container-one, .container-two, .container-three{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8rem;
+        padding-bottom: 8em;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
