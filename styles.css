@@ -21,6 +21,10 @@ h1, h2, p, ul{
     cursor: pointer;
 }
 
+h2:hover{
+    color: #403353;
+}
+
 h1, h2, ul{
    color: rgb(9, 3, 66); 
 }
